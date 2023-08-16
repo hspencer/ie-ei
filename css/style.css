@@ -1,0 +1,36 @@
+
+
+/*
+
+Cascada de Estilo
+
+*/
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    // background-color: fuchsia;
+    margin: 1em;
+}
+
+.container{
+    // background-color: lightgreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+
+}
+
+#left{
+    // background-color: brown;
+
+}
+
+#left img{
+    width: 100%;
+    height: auto;
+}
+
+#right{
+    // background-color: chartreuse;
+}
